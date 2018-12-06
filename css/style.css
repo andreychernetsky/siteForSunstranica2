@@ -265,6 +265,37 @@ html {
     /*outline: 1px solid black;*/
     position: relative;
 }
+.one__list {
+
+}
+
+.one__item {
+    padding: 10px 0;
+    color: #c6c6c6;
+    font-style: italic;
+    list-style-type: none;
+    margin: 0 auto;
+
+}
+
+.one__link {
+    color: #626262;
+    margin-right: 6px;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.one__link:hover {
+    text-decoration: underline;
+    color:#F8B763;
+}
+.one__link:before {
+    content: "\f105";
+    display: inline-block;
+    font-family: 'FontAwesome';
+    margin-right: 10px;
+    color: #c6c6c6;
+}
 
 /*объвертка првого контента*/
 .wrap-aside {
