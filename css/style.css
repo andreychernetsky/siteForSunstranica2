@@ -84,7 +84,7 @@ html {
 }
 
 /*бургер*/
-.icon-menu {
+/* .icon-menu {
     display: none;
     border: 0;
     background: none;
@@ -116,7 +116,7 @@ html {
     margin: 0.7rem 0;
     display: none;
 }
-/*социальные иконки*/
+социальные иконки
 .social-icons {
     opacity: 0.5;
     position: fixed;
@@ -157,7 +157,7 @@ html {
     right: 5px;
 }
 
-/*.dws-facebook {background-color: #3b5998;}*/
+.dws-facebook {background-color: #3b5998;}
 .dws-vk {
     background-color: #507299;
 }
@@ -166,7 +166,7 @@ html {
     background-color: #e62117;
 }
 
-/*.dws-envelope-o {background-color: #656766;}*/
+.dws-envelope-o {background-color: #656766;}
 
 .dws-button {
     width: 40px;
@@ -181,11 +181,60 @@ html {
     padding-right: 15px;
 }
 
-/*.dws-facebook:hover{width: 75px}*/
+.dws-facebook:hover{width: 75px}
 .dws-vk:hover, .dws-youtube:hover {
     width: 55px
 }
+ */
 
+/* второй вариант социальной иконки*/
+.icon-bar {
+    opacity: .7;
+    display: block;
+    position: fixed;
+    top: calc(50% - (165px / 2));
+    left: 0;
+    z-index: 100;
+}
+
+.icon-bar.open a,
+.icon-bar.open button {
+    opacity: 1;
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 9px;
+    transition: all 0.3s ease;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.icon-bar a.skype {
+    background: #00aeff;;
+}
+
+.icon-bar a.youtube {
+    background: #bb0000;
+}
+
+.icon-bar a.vk {
+    background: #47569b;
+}
+
+.icon-bar button {
+    display: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 1.65rem;;
+    color: #ffffff;
+    opacity: .7;
+    transition: all .5s ease;
+    outline: none;
+    background-color: #00b600;
+}
 .wrap {
     max-width: 1680px;
     min-width: 300px;
@@ -394,7 +443,7 @@ html {
     border-top: 1px solid #ccc;
     padding: 1.8rem 0;
     box-shadow: 3px 3px 1px rgba(0, 0, 0, .05);
-    margin-top: 30px;
+    margin-top: 20px;
     position: relative;
     display: flex;
     flex-direction: column;
